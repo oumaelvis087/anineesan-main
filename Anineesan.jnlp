@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Anineesan.jnlp">
+  <information>
+    <title>Aninee-san</title>
+    <vendor>000765-0073</vendor>
+    <description>Anineesan</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Anineesan.jar" size="22786497" download="eager" />
+    <jar href="annotations-15.0.jar" size="18614" download="eager" />
+    <jar href="jsoup-1.10.2.jar" size="350645" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.Main"  name="Anineesan" />
+  <update check="background"/>
+</jnlp>
